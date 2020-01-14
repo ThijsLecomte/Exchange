@@ -37,7 +37,7 @@
 
 .EXAMPLE
     Change the default logpath with the use of the parameter logPath
-    ..\Export-FlaggedMails.ps1 -DLLPathEWS "C:\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.dll" -EWSURL "https://outlook.rodekruis.be/EWS/Exchange.asmx"
+    ..\Export-FlaggedMails.ps1 -DLLPathEWS "C:\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.dll" -EWSURL "https://outlook.domain.com/EWS/Exchange.asmx"
 
 .NOTES
     File Name  : Invoke-FlagProcessing.ps1  

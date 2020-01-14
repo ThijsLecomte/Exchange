@@ -51,7 +51,7 @@
 
 .EXAMPLE
     Use the default logpath without the use of the parameter logPath
-    ..\Export-FlaggedMails.ps1 -DLLPathEWS "C:\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.dll" -EWSURL "https://outlook.rodekruis.be/EWS/Exchange.asmx" -ExportPath "C:\temp" -EVServer "SERVER1" -EVPowershellPath ".\Symantec.EnterpriseVault.PowerShell.Monitoring.dll"
+    ..\Export-FlaggedMails.ps1 -DLLPathEWS "C:\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.dll" -EWSURL "https://outlook.domain.com/EWS/Exchange.asmx" -ExportPath "C:\temp" -EVServer "SERVER1" -EVPowershellPath ".\Symantec.EnterpriseVault.PowerShell.Monitoring.dll"
 
 .EXAMPLE
     Change the default logpath with the use of the parameter logPath
